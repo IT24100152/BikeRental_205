@@ -429,12 +429,7 @@
                 <span class="menu-text">Manage Users</span>
             </a>
         </div>
-        <div class="menu-item">
-            <a href="viewAllBikes.jsp">
-                <span class="menu-icon"><i class="fas fa-bicycle"></i></span>
-                <span class="menu-text">Manage Bikes</span>
-            </a>
-        </div>
+
         <div class="menu-item active">
             <a href="addAdmin.jsp?adminId=<%=1%>">
                 <span class="menu-icon"><i class="fas fa-user-plus"></i></span>

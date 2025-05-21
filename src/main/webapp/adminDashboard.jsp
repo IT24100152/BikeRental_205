@@ -433,12 +433,6 @@
             </a>
         </div>
         <div class="menu-item">
-            <a href="viewAllBikes.jsp">
-                <span class="menu-icon"><i class="fas fa-bicycle"></i></span>
-                <span class="menu-text">Manage Bikes</span>
-            </a>
-        </div>
-        <div class="menu-item">
             <a href="addAdmin.jsp">
                 <span class="menu-icon"><i class="fas fa-user-plus"></i></span>
                 <span class="menu-text">Add Admin</span>
