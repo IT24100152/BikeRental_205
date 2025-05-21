@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class AdminManager {
     private static ArrayList<Admin> admins = null;
-    private static final String fileName = "admins.txt";
+    private static final String fileName = "D:/Y1 SEM2/Project_OOP/Admin/src/main/webapp/WEB-INF/Data/admins.txt";
     private static int ID = 0;
 
     public static void readAdmins() {
