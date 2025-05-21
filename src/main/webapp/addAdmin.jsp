@@ -1,3 +1,4 @@
+<%@ page import="com.bikerental.admin.model.Admin" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -440,8 +441,11 @@
                 <span class="menu-text">Add Admin</span>
             </a>
         </div>
+        <%
+            Admin loggedInAdmin = (Admin)session.getAttribute("logged-in-admin");
+        %>
         <div class="menu-item">
-            <a href="editAdmin.jsp?adminId=<%=1%>">
+            <a href="editAdmin.jsp?adminId=<%=loggedInAdmin.getAdminId()%>">
                 <span class="menu-icon"><i class="fas fa-user-cog"></i></span>
                 <span class="menu-text">My Profile</span>
             </a>
