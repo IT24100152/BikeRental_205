@@ -423,13 +423,6 @@
                 <span class="menu-text">Dashboard</span>
             </a>
         </div>
-        <div class="menu-item">
-            <a href="viewAllUsers.jsp">
-                <span class="menu-icon"><i class="fas fa-users"></i></span>
-                <span class="menu-text">Manage Users</span>
-            </a>
-        </div>
-
         <div class="menu-item active">
             <a href="addAdmin.jsp?adminId=<%=1%>">
                 <span class="menu-icon"><i class="fas fa-user-plus"></i></span>
