@@ -1,0 +1,2 @@
+1,Yamaha,Rented,Colombo,700.0,standard,70
+2,march k11,Available,Colombo,800.0,electric,90
